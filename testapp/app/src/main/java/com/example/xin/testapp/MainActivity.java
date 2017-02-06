@@ -93,7 +93,6 @@ public class MainActivity extends AppCompatActivity {
         protected void onStart() {
             super.onStart();
             loadFromFile();
-
             try {
                 setResult(RESULT_OK);
                 // Get the Bundle Object
@@ -104,10 +103,8 @@ public class MainActivity extends AppCompatActivity {
                 for(int index = 0; index < classObject.size(); index++) {
                     personList.add(classObject.get(index));
                 }
-
             } catch (Exception e) {
                 }
-
 
             String size = "You have " + personList.size() + " records";
             TextView sizeView = (TextView) findViewById(R.id.size);
@@ -116,7 +113,6 @@ public class MainActivity extends AppCompatActivity {
             adapter = new ArrayAdapter<Person>(this,
                     R.layout.list_item, personList);
             persons.setAdapter(adapter);
-
             persons.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                     public void onItemClick(AdapterView<?> parent, View view,
                                             int position, long id) {
@@ -130,7 +126,6 @@ public class MainActivity extends AppCompatActivity {
                 });
             saveInFile();
         }
-
 
     /**
      * Loads tweets from file.
@@ -146,7 +141,6 @@ public class MainActivity extends AppCompatActivity {
             // 2017 01-26 17:53:59
             personList = gson.fromJson(in, new TypeToken<ArrayList<Person>>(){}.getType());
             fis.close();
-
         } catch (FileNotFoundException e) {
             personList = new ArrayList<Person>();
         } catch (IOException e) {

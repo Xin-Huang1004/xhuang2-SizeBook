@@ -16,8 +16,6 @@ import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
-
-
 /**
  * This class is the EditActivity class of the project. In this class,
  * user can edit the records
@@ -27,7 +25,6 @@ import java.util.Calendar;
  * @version  1.0
  * @since 1.0
  */
-
 
 /**
  * The type EditActivity
@@ -76,11 +73,9 @@ public class EditActivity extends AppCompatActivity {
                         c.set(year, monthOfYear, dayOfMonth);
                         DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
                         dateText.setText(dateFormat.format(c.getTime()));
-
                     }
                 }, c.get(Calendar.YEAR), c.get(Calendar.MONTH), c.get(Calendar.DAY_OF_MONTH));
                 dialog.show();
-
             }
         });
 
@@ -90,10 +85,7 @@ public class EditActivity extends AppCompatActivity {
             public void onClick(View v) {
                 trySave();
             }
-
         });
-
-
     }
 
     /**
@@ -137,9 +129,7 @@ public class EditActivity extends AppCompatActivity {
         EditInseam.setText(inseam);
         EditText EditComment = (EditText) findViewById(R.id.reEditComment);
         EditComment.setText(comment);
-
     }
-
 
     /**
      * get the user input, check if the name is empty
@@ -196,7 +186,6 @@ public class EditActivity extends AppCompatActivity {
             DecimalFormat df = new DecimalFormat("0.0");
             df.setRoundingMode(RoundingMode.HALF_UP);
             float floatText = Float.valueOf(editText.getText().toString());
-            System.out.println(floatText);
             String text = df.format(floatText);
             return text;
         }

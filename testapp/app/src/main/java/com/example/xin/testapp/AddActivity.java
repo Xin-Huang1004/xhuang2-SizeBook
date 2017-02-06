@@ -28,7 +28,6 @@ import java.util.Calendar;
  * @since 1.0
  */
 
-
 /**
  * The type AddActivity
  */
@@ -80,7 +79,6 @@ public class AddActivity extends AppCompatActivity {
                     }
                 }, c.get(Calendar.YEAR), c.get(Calendar.MONTH), c.get(Calendar.DAY_OF_MONTH));
                 dialog.show();
-
             }
         });
 
@@ -133,6 +131,7 @@ public class AddActivity extends AppCompatActivity {
                             }
                         }
                     }
+
                     if (date_text.isEmpty() || checkDate == 0) {
                         Intent passIntent = new Intent();
                         passIntent.setClass(AddActivity.this, MainActivity.class);
@@ -157,7 +156,6 @@ public class AddActivity extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
         }
-
 
     /**
      * Check the user input for numeric part

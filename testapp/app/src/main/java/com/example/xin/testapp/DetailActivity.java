@@ -69,7 +69,6 @@ public class DetailActivity extends AppCompatActivity {
          * after delete save the file by calling saveInFile
          */
         Button deleteButton = (Button) findViewById(R.id.deletebutton);
-
         deleteButton.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v) {
                 setResult(RESULT_OK);
