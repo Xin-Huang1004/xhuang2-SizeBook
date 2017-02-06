@@ -25,13 +25,45 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 
+/**
+ * This class is the main view class of the project. <br> In this class,
+ * user can view the list of records and also can click add button to add a
+ * new record
+ * All files are in the form of "json" files that are stored in Emulator's
+ * accessible from Android Device Monitor:
+ * <pre>
+ *     pre-formatted text: <br>
+ *         File Explorer -> data -> data -> com.example.xin.testapp -> files -> xhuang2-SizeBook.sav.
+ * </pre>
+ * The file name is indicated in the &nbsp &nbsp &nbsp FILENAME constant.
+ *
+ * @author Xin Huang
+ * @version  1.0
+ * @since 1.0
+ */
+
+
+/**
+ * The type Main activity.
+ */
 public class MainActivity extends AppCompatActivity {
+    /**
+     * The file that all the add's records are saved there.
+     * The format of the file is JSON.
+     * @see #loadFromFile()
+     * @see #saveInFile()
+     */
+
     private static final String FILENAME = "xhuang2-SizeBook.sav";
     public ListView persons;
     public ArrayList<Person> personList;
     public ArrayAdapter<Person> adapter;
     public ArrayList<Person> classObject;
 
+    /**
+     * Called when the activity is first created
+     * @param savedInstanceState
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -48,7 +80,16 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-        @SuppressWarnings("unchecked")
+    /**
+     * Called when the activity is started
+     * try get the ArrayList which is sended from AddActivity(contains the information
+     * for a new person)
+     * Output the number of records in TextView
+     * Set the adapter
+     * When user click on the item in ListView, send the positon of the item to DetailActivity
+     * Save changes by calling saveInFile
+     */
+    @SuppressWarnings("unchecked")
         protected void onStart() {
             super.onStart();
             loadFromFile();
@@ -91,6 +132,11 @@ public class MainActivity extends AppCompatActivity {
         }
 
 
+    /**
+     * Loads tweets from file.
+     * @throws RuntimeException if IOException e happens
+     * @exception FileNotFoundException if the file is not created
+     */
     private void loadFromFile() {
         try {
             FileInputStream fis = openFileInput(FILENAME);
@@ -108,6 +154,10 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    /**
+     * Saves tweets in file in JSON format.
+     * @throws FileNotFoundException if folder not exists
+     */
     private void saveInFile() {
         try {
             FileOutputStream fos = openFileOutput(FILENAME,

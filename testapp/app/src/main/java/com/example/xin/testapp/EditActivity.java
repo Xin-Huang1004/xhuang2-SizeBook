@@ -16,6 +16,22 @@ import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
+
+
+/**
+ * This class is the EditActivity class of the project. In this class,
+ * user can edit the records
+ * and intent will send the new records back to DetailActivity for save
+ *
+ * @author Xin Huang
+ * @version  1.0
+ * @since 1.0
+ */
+
+
+/**
+ * The type EditActivity
+ */
 public class EditActivity extends AppCompatActivity {
 
     private EditText nameText;
@@ -27,8 +43,11 @@ public class EditActivity extends AppCompatActivity {
     private EditText hipText;
     private EditText inseamText;
     private EditText commentText;
-    private int checkDate = 0;
 
+    /**
+     * Called when the activity is first created
+     * Set a calendar for user to pick when is EditText for date is called
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -45,6 +64,7 @@ public class EditActivity extends AppCompatActivity {
         inseamText = (EditText) findViewById(R.id.reEditInseam);
         commentText = (EditText) findViewById(R.id.reEditComment);
 
+        //set the calendar
         dateText.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
@@ -64,6 +84,7 @@ public class EditActivity extends AppCompatActivity {
             }
         });
 
+        //when the saveEditButton is pressed call trySave methond to check and save the edit
         Button saveEditButton = (Button) findViewById(R.id.saveEdit);
         saveEditButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -75,6 +96,11 @@ public class EditActivity extends AppCompatActivity {
 
     }
 
+    /**
+     * Called when the activity is onStart
+     * Get the old records and show them on the EditView
+     * Also get the user's edit
+     */
     protected void onStart() {
         // TODO Auto-generated method stub
         super.onStart();
@@ -115,6 +141,11 @@ public class EditActivity extends AppCompatActivity {
     }
 
 
+    /**
+     * get the user input, check if the name is empty
+     * change the float number's format
+     * If all OK, send them back to DetailActivity by using intent for save
+     */
     private void trySave() {
             setResult(RESULT_OK);
 
@@ -151,8 +182,11 @@ public class EditActivity extends AppCompatActivity {
         }
 
 
-
-
+    /**
+     * Check the user input for numeric part
+     * if empty set it to 0
+     * if not empty only leave one number after decimal point
+     */
     protected String ifEmpty(EditText editText){
         if(editText.getText().toString().isEmpty()){
             String text = "";

@@ -17,6 +17,21 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 
+
+/**
+ * This class is the AddActivity class of the project. In this class,
+ * user can add a new record
+ * and intent will send the ArrayList back to MainActivity for save
+ *
+ * @author Xin Huang
+ * @version  1.0
+ * @since 1.0
+ */
+
+
+/**
+ * The type AddActivity
+ */
 public class AddActivity extends AppCompatActivity {
 
     private EditText nameText;
@@ -30,6 +45,10 @@ public class AddActivity extends AppCompatActivity {
     private EditText commentText;
     private int checkDate = 0;
 
+    /**
+     * Called when the activity is first created
+     * Set a calendar for user to pick when is EditText for date is called
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -46,6 +65,7 @@ public class AddActivity extends AppCompatActivity {
         inseamText = (EditText) findViewById(R.id.editinseam);
         commentText = (EditText) findViewById(R.id.editcomment);
 
+        //set the calendar
         dateText.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
@@ -64,6 +84,12 @@ public class AddActivity extends AppCompatActivity {
             }
         });
 
+        /**
+         * when the saveButton is clicked
+         * get the user input, check if the name is empty and also the format for date
+         * change the float number's format
+         * If all OK, save it to ArrayList and send it back to MainActivity
+         */
         Button saveButton = (Button) findViewById(R.id.save);
         saveButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -124,11 +150,20 @@ public class AddActivity extends AppCompatActivity {
 
     }
 
+    /**
+     * Called when the activity is onStart
+     */
     @Override
     protected void onStart() {
         super.onStart();
         }
 
+
+    /**
+     * Check the user input for numeric part
+     * if empty set it to 0
+     * if not empty only leave one number after decimal point
+     */
     protected String ifEmpty(EditText editText){
         String text;
         if(editText.getText().toString().isEmpty()){
