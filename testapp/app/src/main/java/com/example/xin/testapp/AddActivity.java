@@ -54,6 +54,7 @@ public class AddActivity extends AppCompatActivity {
     /**
      * Called when the activity is first created
      * Set a calendar for user to pick when is EditText for date is called
+     * @param savedInstanceState
      */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -167,7 +168,9 @@ public class AddActivity extends AppCompatActivity {
     /**
      * Check the user input for numeric part
      * if empty set it to 0
-     * if not empty only leave one number after decimal point
+     * if not empty only leave one number after decimal point and return "correct" format
+     * @param editText
+     * @return text
      */
     protected String ifEmpty(EditText editText){
         String text;

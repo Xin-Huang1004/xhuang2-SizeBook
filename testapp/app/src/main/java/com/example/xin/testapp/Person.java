@@ -203,6 +203,8 @@ public class Person implements Serializable {
      * getNoSerialiZableString and setNoSerializableString got from internet
      * Taken from http://blog.csdn.net/wzy_1988/article/details/35571359
      *  2017.02.04 21:43
+     *
+     * @return ""
      */
     public String getNoSerializableString() {
         if (noSerializableString != null) {
@@ -212,6 +214,9 @@ public class Person implements Serializable {
         }
     }
 
+    /**
+     * @param noSerializableString
+     */
     public void setNoSerializableString(String noSerializableString) {
         this.noSerializableString = noSerializableString;
     }
