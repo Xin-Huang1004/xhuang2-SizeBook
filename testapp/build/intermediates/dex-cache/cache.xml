@@ -12,24 +12,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/xin/Desktop/github/xhuang2-SizeBook/testapp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
-        <dex dex="/Users/xin/Desktop/github/xhuang2-SizeBook/testapp/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.1.0_b0e1ae67af390be6a5a9bd0bddd1bc7c64a9fd5f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/xin/Desktop/github/xhuang2-SizeBook/testapp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
-        <dex dex="/Users/xin/Desktop/github/xhuang2-SizeBook/testapp/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.1.0_0277cfbd84d34332e02d2713fe20d5986a54c8ec.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/xin/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
         jumboMode="false"
         optimize="true"
@@ -45,6 +27,78 @@
         revision="25.0.2"
         sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
         <dex dex="/Users/xin/Desktop/github/xhuang2-SizeBook/testapp/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.1.0_bacd6e4e847b3d0cab8221940d4863d95512cf78.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xin/Desktop/github/xhuang2-SizeBook/testapp/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="/Users/xin/Desktop/github/xhuang2-SizeBook/testapp/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.1.0_472801d228a4fa6836aab8d22f4ca12a3d48e5b8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xin/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/c4ba5371a29ac9b2ad6129b1d39ea38750043eff/gson-2.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
+        <dex dex="/Users/xin/Desktop/github/xhuang2-SizeBook/testapp/app/build/intermediates/pre-dexed/debug/gson-2.8.0_ae770ee461b8fa92bf31626727c990a4554d2e9e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xin/Desktop/github/xhuang2-SizeBook/testapp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="/Users/xin/Desktop/github/xhuang2-SizeBook/testapp/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.1.0_368229e3a59306ee694810da5e75cba730b43f6f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xin/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="/Users/xin/Desktop/github/xhuang2-SizeBook/testapp/app/build/intermediates/pre-dexed/debug/support-annotations-25.1.0_04cf71731159e458f63955132e232ebcc24c9383.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xin/Desktop/github/xhuang2-SizeBook/testapp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="/Users/xin/Desktop/github/xhuang2-SizeBook/testapp/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.1.0_0277cfbd84d34332e02d2713fe20d5986a54c8ec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xin/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/c4ba5371a29ac9b2ad6129b1d39ea38750043eff/gson-2.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
+        <dex dex="/Users/xin/Desktop/github/xhuang2-SizeBook/testapp/app/build/intermediates/pre-dexed/debug/gson-2.8.0_ae770ee461b8fa92bf31626727c990a4554d2e9e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xin/Desktop/github/xhuang2-SizeBook/testapp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="/Users/xin/Desktop/github/xhuang2-SizeBook/testapp/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.1.0_b0e1ae67af390be6a5a9bd0bddd1bc7c64a9fd5f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xin/Desktop/github/xhuang2-SizeBook/testapp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="/Users/xin/Desktop/github/xhuang2-SizeBook/testapp/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.1.0_0277cfbd84d34332e02d2713fe20d5986a54c8ec.jar" />
     </item>
     <item
         is-multidex="false"
@@ -67,38 +121,11 @@
     <item
         is-multidex="false"
         jar="/Users/xin/Desktop/github/xhuang2-SizeBook/testapp/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
-        <dex dex="/Users/xin/Desktop/github/xhuang2-SizeBook/testapp/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.1.0_472801d228a4fa6836aab8d22f4ca12a3d48e5b8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/xin/Desktop/github/xhuang2-SizeBook/testapp/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
         <dex dex="/Users/xin/Desktop/github/xhuang2-SizeBook/testapp/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.1.0_472801d228a4fa6836aab8d22f4ca12a3d48e5b8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/xin/Desktop/github/xhuang2-SizeBook/testapp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="09e79b160b882f76352275fe47ece38ae9547a25">
-        <dex dex="/Users/xin/Desktop/github/xhuang2-SizeBook/testapp/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_4e9b7c48086c6a12a33d31866625d146b1982302.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/xin/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/c4ba5371a29ac9b2ad6129b1d39ea38750043eff/gson-2.8.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
-        <dex dex="/Users/xin/Desktop/github/xhuang2-SizeBook/testapp/app/build/intermediates/pre-dexed/debug/gson-2.8.0_ae770ee461b8fa92bf31626727c990a4554d2e9e.jar" />
     </item>
     <item
         is-multidex="false"
@@ -138,33 +165,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/xin/Desktop/github/xhuang2-SizeBook/testapp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
-        <dex dex="/Users/xin/Desktop/github/xhuang2-SizeBook/testapp/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.1.0_368229e3a59306ee694810da5e75cba730b43f6f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/xin/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
-        <dex dex="/Users/xin/Desktop/github/xhuang2-SizeBook/testapp/app/build/intermediates/pre-dexed/debug/support-annotations-25.1.0_04cf71731159e458f63955132e232ebcc24c9383.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/xin/Desktop/github/xhuang2-SizeBook/testapp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
-        <dex dex="/Users/xin/Desktop/github/xhuang2-SizeBook/testapp/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.1.0_0277cfbd84d34332e02d2713fe20d5986a54c8ec.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/xin/Desktop/github/xhuang2-SizeBook/testapp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -180,24 +180,6 @@
         revision="25.0.2"
         sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
         <dex dex="/Users/xin/Desktop/github/xhuang2-SizeBook/testapp/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.1.0_3ec59804beccf85463110b84e204ec76bfb4ddfa.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/xin/Desktop/github/xhuang2-SizeBook/testapp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="01f03d6d2d98c6491d3ad9ab1dbfb636b37f7e5b">
-        <dex dex="/Users/xin/Desktop/github/xhuang2-SizeBook/testapp/app/build/intermediates/pre-dexed/debug/instant-run_0553afd20a82eed08c89dc32fc4764ec4e9e7bb4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/xin/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/c4ba5371a29ac9b2ad6129b1d39ea38750043eff/gson-2.8.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
-        <dex dex="/Users/xin/Desktop/github/xhuang2-SizeBook/testapp/app/build/intermediates/pre-dexed/debug/gson-2.8.0_ae770ee461b8fa92bf31626727c990a4554d2e9e.jar" />
     </item>
     <item
         is-multidex="false"
