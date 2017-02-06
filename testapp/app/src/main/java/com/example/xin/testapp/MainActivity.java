@@ -1,3 +1,10 @@
+/*
+ * Copyright (c) 2017. Assignment1 CMPUT301, university of alberta. All Rights Reserved.
+ * You May use, distribute or modify this code unders terms and conditions of code of student
+ *    behavior at University of Alberta. But cannot be assignment solution directly
+ * You can find a copy a file license in this project. otherwise please contact xhuang2@ualberta.ca
+ */
+
 package com.example.xin.testapp;
 
 import android.content.Context;
@@ -103,6 +110,7 @@ public class MainActivity extends AppCompatActivity {
                 for(int index = 0; index < classObject.size(); index++) {
                     personList.add(classObject.get(index));
                 }
+                finish();
             } catch (Exception e) {
                 }
 

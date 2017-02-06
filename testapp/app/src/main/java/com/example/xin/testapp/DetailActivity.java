@@ -1,3 +1,10 @@
+/*
+ * Copyright (c) 2017. Assignment1 CMPUT301, university of alberta. All Rights Reserved.
+ * You May use, distribute or modify this code unders terms and conditions of code of student
+ *    behavior at University of Alberta. But cannot be assignment solution directly
+ * You can find a copy a file license in this project. otherwise please contact xhuang2@ualberta.ca
+ */
+
 package com.example.xin.testapp;
 
 import android.content.Context;
@@ -172,16 +179,5 @@ public class DetailActivity extends AppCompatActivity {
             throw new RuntimeException();
         }
     }
-
-    /**
-     * When return key is pressed
-     * clear the data in Intent
-     * Add back to MainActivity
-     */
-    @Override
-    public void onBackPressed() {
-        Intent backToMain = new Intent(DetailActivity.this, MainActivity.class).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);//setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);;
-        startActivity(backToMain);
-    }
-    }
+}
 
